@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Theme.Aplicacion_Mapa"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+</resources>

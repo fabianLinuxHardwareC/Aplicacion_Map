@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_claro"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/blanco"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="24dp">
+
+                <TextView
+                    android:id="@+id/textoBienvenida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textoBienvenida"
+                    android:textColor="@color/negro"
+                    android:textSize="@dimen/tamanoTitulo"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/azul_claro" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/botonInicio"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/altoBoton"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/textoInicio"
+                    android:textSize="@dimen/tamanoSubtitulo"
+                    android:textColor="@color/negro"
+                    android:textAllCaps="false"
+                    app:backgroundTint="@color/azul_claro"
+                    app:cornerRadius="@dimen/radioBoton" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/botonCreditos"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/altoBoton"
+                    android:layout_marginTop="@dimen/margenBoton"
+                    android:text="@string/textoCreditos"
+                    android:textSize="@dimen/tamanoSubtitulo"
+                    android:textColor="@color/negro"
+                    android:textAllCaps="false"
+                    app:backgroundTint="@color/verde_claro"
+                    app:cornerRadius="@dimen/radioBoton" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

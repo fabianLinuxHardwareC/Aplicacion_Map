@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/verde_claro">
+
+    <TextView
+        android:id="@+id/textoTituloMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/tituloMapa"
+        android:textColor="@color/negro"
+        android:textSize="@dimen/tamanoTitulo"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <fragment
+        android:id="@+id/mapaGoogle"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/botonRegresarMapa"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altoBoton"
+        android:layout_margin="16dp"
+        android:text="@string/textoRegresar"
+        android:textColor="@color/negro"
+        android:textSize="@dimen/tamanoSubtitulo"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/azul_claro"
+        app:cornerRadius="@dimen/radioBoton" />
+
+</LinearLayout>

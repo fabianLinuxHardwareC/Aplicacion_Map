@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Aplicacion_Mapa</string>
+
+    <string name="textoBienvenida">Bienvenido a mi Aplicación de Mapas</string>
+    <string name="textoDesarrollador">Hecho por: Fabián Ferrer</string>
+
+    <string name="textoInicio">Inicio</string>
+    <string name="textoCreditos">Créditos</string>
+
+    <string name="tituloLugares">Lugares de interés</string>
+    <string name="textoSeleccionar">Selecciona un lugar para ver su ubicación</string>
+
+    <string name="lugar1">Estatua de la Libertad</string>
+    <string name="lugar2">Puente Golden Gate</string>
+    <string name="lugar3">Casa Blanca</string>
+    <string name="lugar4">Santa Monica Pier</string>
+
+    <string name="textoRegresar">Regresar</string>
+    <string name="tituloMapa">Ubicación del lugar</string>
+    <string name="lugarPrueba">Estatua de la Libertad</string>
+
+</resources>

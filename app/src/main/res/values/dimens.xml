@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tamanoTitulo">26sp</dimen>
+    <dimen name="tamanoSubtitulo">18sp</dimen>
+    <dimen name="tamanoParrafo">14sp</dimen>
+
+    <dimen name="altoBoton">55dp</dimen>
+    <dimen name="margenBoton">15dp</dimen>
+    <dimen name="radioBoton">15dp</dimen>
+
+    <dimen name="altoImagen">120dp</dimen>
+    <dimen name="tamanoIcono">70dp</dimen>
+    <dimen name="radioTarjeta">16dp</dimen>
+    <dimen name="margenTarjeta">8dp</dimen>
+
+</resources>

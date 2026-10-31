@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_claro"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tituloLugares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tituloLugares"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/tamanoTitulo"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textoSeleccionar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/textoSeleccionar"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/tamanoParrafo"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/tarjetaLugar1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margenTarjeta"
+                app:cardBackgroundColor="@color/blanco"
+                app:cardCornerRadius="@dimen/radioTarjeta"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/tamanoIcono"
+                        android:layout_height="@dimen/tamanoIcono"
+                        android:src="@drawable/lugar_1"
+                        android:contentDescription="@string/lugar1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/lugar1"
+                        android:textColor="@color/negro"
+                        android:textSize="@dimen/tamanoSubtitulo"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/tarjetaLugar2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margenTarjeta"
+                app:cardBackgroundColor="@color/blanco"
+                app:cardCornerRadius="@dimen/radioTarjeta"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/tamanoIcono"
+                        android:layout_height="@dimen/tamanoIcono"
+                        android:src="@drawable/lugar_2"
+                        android:contentDescription="@string/lugar2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/lugar2"
+                        android:textColor="@color/negro"
+                        android:textSize="@dimen/tamanoSubtitulo"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/tarjetaLugar3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margenTarjeta"
+                app:cardBackgroundColor="@color/blanco"
+                app:cardCornerRadius="@dimen/radioTarjeta"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/tamanoIcono"
+                        android:layout_height="@dimen/tamanoIcono"
+                        android:src="@drawable/lugar_3"
+                        android:contentDescription="@string/lugar3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/lugar3"
+                        android:textColor="@color/negro"
+                        android:textSize="@dimen/tamanoSubtitulo"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/tarjetaLugar4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margenTarjeta"
+                app:cardBackgroundColor="@color/blanco"
+                app:cardCornerRadius="@dimen/radioTarjeta"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/tamanoIcono"
+                        android:layout_height="@dimen/tamanoIcono"
+                        android:src="@drawable/lugar_4"
+                        android:contentDescription="@string/lugar4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/lugar4"
+                        android:textColor="@color/negro"
+                        android:textSize="@dimen/tamanoSubtitulo"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/botonRegresar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altoBoton"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/textoRegresar"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/tamanoSubtitulo"
+            android:textAllCaps="false"
+            app:backgroundTint="@color/azul_claro"
+            app:cornerRadius="@dimen/radioBoton" />
+
+    </LinearLayout>
+
+</ScrollView>
